@@ -205,6 +205,10 @@ ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 ro.sf.lcd_density=420
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # IO CGroup
 ro.vendor.iocgrp.config=1
 
