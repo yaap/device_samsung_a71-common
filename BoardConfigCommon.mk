@@ -123,7 +123,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix_legacy.xml \
     hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml \
+    vendor/lineage/config/device_framework_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
     $(COMMON_PATH)/manifest.xml
@@ -186,7 +186,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system_ext \
     product \
     vendor \
-    odm \
+    odm
 
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_ODMIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -233,7 +233,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Rootfs
 BOARD_ROOT_EXTRA_FOLDERS += \
     efs \
-    metadata \
+    metadata
 
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
