@@ -112,6 +112,10 @@ TARGET_BOARD_FASTBOOT_INFO_FILE := $(COMMON_PATH)/fastboot-info.txt
 PRODUCT_PACKAGES += \
     fastbootd
 
+# FastCharge
+PRODUCT_PACKAGES += \
+    FastCharge
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.samsung
@@ -199,6 +203,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    FastChargeA71
 
 PRODUCT_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay \
