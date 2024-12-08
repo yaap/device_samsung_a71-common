@@ -278,6 +278,8 @@ QCOM_BOARD_PLATFORMS += sm6150
 TARGET_BOARD_PLATFORM := sm6150
 
 # Power
+TARGET_PROVIDES_POWERHAL := true
+
 PRODUCT_PACKAGES += \
     android.hardware.power-service.pixel-libperfmgr \
     android.hardware.power.stats@1.0-service.mock
