@@ -368,17 +368,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung \
     vendor/qcom/opensource/usb/etc
 
-# Telephony
-PRODUCT_PACKAGES += \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.sm6150
