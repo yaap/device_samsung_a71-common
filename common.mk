@@ -93,14 +93,6 @@ $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# SamsungAdvancedDisplay
-PRODUCT_PACKAGES += \
-    AdvancedDisplay
-
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
