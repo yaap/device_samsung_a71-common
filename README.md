@@ -12,4 +12,3 @@
 |     Device    | Codename |     Shipped Android Version    |
 |----------|----------|----------|
 | Galaxy A71 | a71 | 10 |
-| Galaxy M51 | m51 | 10 |

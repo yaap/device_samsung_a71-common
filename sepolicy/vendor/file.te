@@ -65,7 +65,6 @@ type sysfs_audio_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_battery_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_camera_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_lcd_writable, sysfs_type, rw_fs_type, fs_type;
-type sysfs_mdnie_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_power_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_sec_switch_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_ss_writable, sysfs_type, rw_fs_type, fs_type;
