@@ -3,6 +3,11 @@ allow system_app proc_pagetypeinfo:file { read open getattr };
 binder_call(system_app, hal_power_default)
 #binder_call(system_app, hal_vibrator_default)
 
+# FastCharge
+allow system_app sysfs_fastcharge:file rw_file_perms;
+allow system_app sysfs_sec_switch:dir search;
+allow system_app sysfs_sec_switch_writable:file rw_file_perms;
+
 # UDFPS
 set_prop(system_app, vendor_fingerprint_prop)
 get_prop(system_app, vendor_fingerprint_prop)
