@@ -56,7 +56,7 @@ odm	/odm	ext4	ro	wait,logical,first_stage_mount,readahead_size_kb=128
 /dev/block/bootdevice/by-name/dsp                       /vendor/dsp            ext4    ro,nosuid,nodev,barrier=1                            wait
 
 #VOLD
-/devices/platform/soc/8804000.sdhci/mmc_host*                           /storage/sdcard1    vfat    defaults        wait,voldmanaged=sdcard:auto
+/devices/platform/soc/8804000.sdhci/mmc_host*                           /storage/sdcard1    vfat    defaults        wait,voldmanaged=sdcard:auto,encryptable=userdata
 /devices/platform/soc/a600000.ssusb/a600000.dwc3/xhci-hcd.0.auto*       auto                auto    defaults        voldmanaged=usb:auto
 
 # ZRAM
