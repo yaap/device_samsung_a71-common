@@ -1,10 +1,27 @@
 [
   {
-    "repository": "android_hardware_samsung",
-    "target_path": "hardware/samsung"
+    "repository": "hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch": "fifteen"
   },
   {
-    "repository": "android_kernel_samsung_a71",
-    "target_path": "kernel/samsung/a71"
+    "repository": "kernel_samsung_a71",
+    "target_path": "kernel/samsung/a71",
+    "branch": "fifteen"
+  },
+  {
+    "repository": "vendor_samsung_a71",
+    "target_path": "vendor/samsung/a71",
+    "branch": "fifteen"
+  },
+  {
+    "repository": "vendor_samsung_a71-common",
+    "target_path": "vendor/samsung/a71-common",
+    "branch": "fifteen"
+  },
+  {
+    "repository": "cyberknight777/android_packages_apps_FastCharge",
+    "target_path": "packages/apps/FastCharge",
+    "branch": "master"
   }
 ]
