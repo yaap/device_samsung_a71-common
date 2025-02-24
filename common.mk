@@ -93,6 +93,10 @@ $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# SamsungDAP
+PRODUCT_PACKAGES += \
+    SamsungDAP
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
