@@ -148,9 +148,6 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS :=  --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/samsung/a71
 
-# Keymaster
-TARGET_KEYMASTER_VARIANT := samsung
-
 # Light
 $(call soong_config_set,samsungVars,target_specific_header_path,$(COMMON_PATH)/include)
 
