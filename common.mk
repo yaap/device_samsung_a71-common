@@ -279,8 +279,7 @@ TARGET_BOARD_PLATFORM := sm6150
 TARGET_PROVIDES_POWERHAL := true
 
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.pixel-libperfmgr \
-    android.hardware.power.stats@1.0-service.mock
+    android.hardware.power-service.pixel-libperfmgr
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
