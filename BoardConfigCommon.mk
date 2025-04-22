@@ -155,8 +155,6 @@ $(call soong_config_set,samsungVars,target_specific_header_path,$(COMMON_PATH)/i
 TARGET_USES_ION := true
 
 # Partitions
-include vendor/yaap/config/BoardConfigReservedSize.mk
-
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_CACHEIMAGE_PARTITION_SIZE := 419430400
 BOARD_DTBOIMG_PARTITION_SIZE := 10485760
